@@ -1,2 +1,2 @@
 # guanyingli.github.io
-computational science class excercise 
+computational communication science class excercise 
