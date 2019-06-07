@@ -1414,12 +1414,13 @@ body {
   box-shadow: none !important;
 }
 .cid-rsG90ZYaoa {
-  padding-top: 45px;
-  padding-bottom: 75px;
-  background-image: url("../../../assets/images/background4.jpg");
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/wechatimg13-1-1440x1080.jpg");
 }
 .cid-rsG90ZYaoa H1 {
-  color: #232323;
+  color: #efefef;
+  text-align: left;
 }
 .cid-rsGaH2N7YN {
   padding-top: 90px;
@@ -1533,4 +1534,67 @@ body {
 .cid-rsGaH2N7YN .reverseTimeline {
   display: flex;
   flex-direction: column-reverse;
+}
+.cid-rsGaH2N7YN .mbr-section-title {
+  text-align: center;
+  color: #767676;
+}
+.cid-rsHjG9wuQg {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rsHjG9wuQg .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
+}
+.cid-rsHjG9wuQg .step {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  border-radius: 50%;
+  border: 2px solid #efefef;
+}
+@media (max-width: 767px) {
+  .cid-rsHjG9wuQg .step {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+  }
+}
+.cid-rsHjG9wuQg .separline {
+  position: relative;
+}
+.cid-rsHjG9wuQg .separline:after {
+  top: 68px;
+  left: 30px;
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: calc(100% - (32px + 4px) * 2);
+  background-color: #efefef;
+}
+@media (max-width: 767px) {
+  .cid-rsHjG9wuQg .separline:after {
+    top: 52px;
+    left: 22px;
+    height: calc(100% - 56px);
+  }
+}
+.cid-rsHjG9wuQg .media-block {
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+@media (min-width: 992px) {
+  .cid-rsHjG9wuQg .media-block {
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rsHjG9wuQg .media-block {
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+    padding-bottom: 2rem;
+  }
 }
